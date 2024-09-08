@@ -1,0 +1,12 @@
+second_hand_inventory/
+│
+├── app.py  # Main Flask application
+├── templates/
+│   ├── base.html  # HTML template base
+│   ├── index.html  # Home page displaying inventory
+│   └── add_product.html  # Form to add a new product
+├── static/
+│   ├── style.css  # Custom styles
+├── models.py  # Database models
+├── inventory.db  # SQLite database (generated after running the app)
+└── README.md  # Project readme
